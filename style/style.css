@@ -29,8 +29,26 @@ h1 , h2 ,h3 {
 
 /* nav */
 
+.header{
+  padding-top: 26px;
+  padding-bottom: 30px;
+}
+
+.header-box{
+  display: flex;
+  align-items: center;
+}
+
 .header-img{
   width: 177px;
+  display: flex;
+}
+
+.header-items{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 505px;
 }
 
 .header-link{
@@ -47,11 +65,19 @@ letter-spacing: 0.4px;
 
 /* hero */
 
+.hero{
+  padding-top: 188px;
+  padding-bottom: 260px;
+  background-image: url(../image/back-hero.png);
+  background-repeat: no-repeat;
+}
+
 .hero-title{
 font-size: 80px;
 line-height: 1.2;
 letter-spacing: 0.22px;
 width: 595px;
+margin-bottom: 19px;
 }
 
 .hero-text{
@@ -59,6 +85,7 @@ font-size: 22px;
 line-height: 1.5;
 letter-spacing: 0.22px;
 width: 577px;
+margin-bottom: 35px;
 }
 
 .hero-btn{
