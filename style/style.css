@@ -103,8 +103,8 @@ border-radius: 18px;
 /* <!-- information --> */
 
 .info{
-  margin-top: 175px;
-  margin-bottom: 170px;
+  padding-top: 175px;
+  padding-bottom: 170px;
 }
 
 .info-items{
@@ -235,7 +235,7 @@ margin-top: 50px;
 /* reviews */
 
 .reviews{
-  margin-top: 139px;
+  padding-top: 139px;
 }
 
 .reviews-box{
@@ -351,8 +351,8 @@ margin-top: 25px;
 
 }
 
-.projects-box{
-display: flex;;
+.projects-boxs{
+  display: flex;
 }
 
 .projects-title {
@@ -380,7 +380,6 @@ margin-bottom: 71px;
 .projects-items {
 display: flex;
 flex-wrap: wrap;
-border: 1px solid red;
   gap: 60px 20px;
 }
 
@@ -396,6 +395,7 @@ border: 1px solid red;
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0.22px;
+  margin-top: 25px;
 
 }
 
@@ -415,6 +415,8 @@ border: none;
 background-image: url(../image/ritht.png);
 background-repeat: no-repeat;
 background-position: center;
+margin-left: 213px;
+margin-top: 25px;
 }
 
 /* <!-- інформація про нас скільки ми зробили проектів і тд -->
@@ -423,15 +425,37 @@ background-position: center;
 .information{
   margin-top: 140px;
   background-color: var(--backggound-coor);
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
 
 .information-items{
   display: flex;
+  gap: 10px;
 }
 
 .information-item{
-  border: 1px solid red;
   text-align: center;
+
+}
+
+.information-item:nth-child(1){
+    padding: 14px 55px 10px 33px;
+    border-right: 1px solid var(--mini-text-color);
+}
+
+.information-item:nth-child(2){
+    padding: 14px 78px 10px 57px;
+    border-right: 1px solid var(--mini-text-color);
+}
+
+.information-item:nth-child(3){
+    padding: 14px 86px 10px 65px;
+    border-right: 1px solid var(--mini-text-color);
+}
+
+.information-item:nth-child(4){
+  padding: 14px 67px 10px 47px;
 }
 
  .information-title{
@@ -440,7 +464,6 @@ text-align: center;
 font-size: 85px;
 line-height: 1.5;
 letter-spacing: 1.7px;
-padding-top: 154px;
 text-align: center;
 }
 
@@ -449,7 +472,6 @@ text-align: center;
 font-size: 22px;
 line-height: 1.5;
 letter-spacing: 0.22px;
-padding-bottom: 150px;
 }
 
 /* <!-- Recent Blogs --> */
@@ -520,7 +542,7 @@ background-position: center;
 /* <!-- join the interno --> */
 
 .join{
-  margin-top: 141px;
+  padding-top: 141px;
 }
 
 .join-box{
@@ -561,7 +583,7 @@ color: var(--button-text-color);
 /* <!-- footer --> */
 
 .footer{
-  margin-top: 130px;
+  padding-top: 130px;
 }
 
 .base{
@@ -622,8 +644,8 @@ letter-spacing: 0.22px;
 /*  */
 
 .trademark{
-  margin-top: 35px;
-  margin-bottom: 36px;
+  padding-top: 35px;
+  padding-bottom: 36px;
   /* border-top: 1px solid #E5E5E5; */
 }
 
