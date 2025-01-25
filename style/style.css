@@ -546,6 +546,8 @@ background-position: center;
   border-radius: 70px;
 background: #292F36;
 text-align: center;
+padding-top: 100px;
+padding-bottom: 95px;
 }
 
 .join-title{
@@ -553,7 +555,7 @@ text-align: center;
 font-size: 50px;
 line-height: 1.5;
 letter-spacing: 0.22px;
-padding-top: 100px;
+
 text-align: center;
 }
 
@@ -568,7 +570,6 @@ margin-bottom: 31px;
 }
 
 .join-btn{
-margin-bottom: 95px;
 background-color: var(--mini-text-color);
 padding: 21px 67px 23px 34px;
 border-radius: 18px;
@@ -582,7 +583,8 @@ color: var(--button-text-color);
 }
 
 .base{
-  border-bottom: 1px solid #E5E5E5
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 111px;
 }
 
 .base-boxs{
@@ -627,7 +629,6 @@ letter-spacing: 0.22px;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 111px;
 }
 
 .base-geolocation{
@@ -642,7 +643,6 @@ letter-spacing: 0.22px;
 .trademark{
   padding-top: 35px;
   padding-bottom: 36px;
-  /* border-top: 1px solid #E5E5E5; */
 }
 
 .trademark-text{
